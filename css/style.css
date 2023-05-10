@@ -121,6 +121,7 @@ article {
 
 .article_div_1_lite {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 42px;
 }
@@ -150,4 +151,23 @@ article {
   text-align: justify;
 
   color: #ffffff;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  padding: 32px 125px;
+  background-color: #2a2626;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  gap: 49px;
 }
