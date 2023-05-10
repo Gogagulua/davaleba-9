@@ -63,3 +63,45 @@ li:hover {
 .header_logo:hover {
   transform: scale(1.2);
 }
+
+/* section2 */
+
+.section_2 {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 96px 125px;
+  background: #2a2626;
+}
+
+.section_2_div_1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.section_2_title {
+  font-family: "Gentium Book Plus", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #ffffff;
+}
+
+.card {
+  display: flex;
+  gap: 123px;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 42px;
+}
+
+.cards {
+  width: 25%;
+}
+
+.cards:hover {
+  box-shadow: 0 20px 10px black;
+}
